@@ -24,9 +24,11 @@ Diagnoses: Records post-appointment medical observations and treatment
 
 # Relationships:
 
-Appointments link patients to doctors
-
-Diagnoses are tied to appointments
+ Relationships Summary
+Entity	Relationship/Cardinality
+Patients → Appointments - One-to-Many - One patient can have many appointments
+Doctors → Appointments - One-to-Many - One doctor can have many appointments
+Appointments → Diagnoses - One-to-One or One-to-Many - One appointment can have one or more diagnoses
 
 
 # Data Import
