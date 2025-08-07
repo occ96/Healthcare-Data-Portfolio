@@ -88,7 +88,7 @@ MySQL Workbench or any SQL client
 
 Ensure the following for file loading:
 
-secure_file_priv is set correctly
+       1. secure_file_priv is set correctly
 
-Your MySQL user has FILE privileges
+       2. Your MySQL user has FILE privileges
 
