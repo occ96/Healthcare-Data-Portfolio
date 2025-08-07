@@ -48,8 +48,8 @@ Appointment joins: Display upcoming appointments with doctor and patient info
 
 Doctor stats: Count of doctors by specialty
 
-# Example SQL Query
-'''sql
+### Example SQL Query
+```sql
 -- Filter patients born after 1990
 SELECT * FROM Patients WHERE DOB > "1990-07-01";
 
