@@ -22,15 +22,17 @@ Appointments: Manages scheduled consultations
 Diagnoses: Records post-appointment medical observations and treatment
 
 
-## Entity Relationships:
+## Entity Relationships
 
-### Entity and Relationship/Cardinality
------------------------------------
+
+### Entity and Relationship/Cardinality:
+------------------------------------------
 ***Patients and Appointments*** - One-to-Many - One patient can have many appointments
 
 ***Doctors and Appointments*** - One-to-Many - One doctor can have many appointments
 
 ***Appointments and Diagnoses*** - One-to-One or One-to-Many - One appointment can have one or more diagnoses
+
 
 ## ER Diagram:
 --------------
@@ -58,6 +60,7 @@ Patient filtering: Find patients born after a specific date
 Appointment joins: Display upcoming appointments with doctor and patient info
 
 Doctor stats: Count of doctors by specialty
+
 
 ### Example SQL Query
 ```sql
