@@ -24,7 +24,7 @@ Diagnoses: Records post-appointment medical observations and treatment
 
 ## Entity Relationships:
 
-Entity and Relationship/Cardinality
+### Entity and Relationship/Cardinality
 -----------------------------------
 ***Patients and Appointments*** - One-to-Many - One patient can have many appointments
 
