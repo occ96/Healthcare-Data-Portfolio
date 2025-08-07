@@ -11,16 +11,13 @@ The datasets used are synthetic/mock data that is simulated to represent a typic
 
 ## Project Structure/Database Schema
 
-Table Structure
-
-Patients: Stores personal info about patients
-
-Doctors: Stores doctor details and specialties
-
-Appointments: Manages scheduled consultations
-
-Diagnoses: Records post-appointment medical observations and treatment
-
+Entity          | Description of Table
+----------------|--------------------------------------------------------------
+1. Patients     | Stores personal info about patients
+2. Doctors      | Stores doctor details and specialties
+3. Appointments | Manages scheduled consultations
+4. Diagnoses    | Records post-appointment medical observations and treatment
+----------------|--------------------------------------------------------------
 
 ## Entity Relationships
 
