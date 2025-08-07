@@ -24,13 +24,13 @@ Diagnoses: Records post-appointment medical observations and treatment
 
 # Relationships:
 
-Entity and	Relationship/Cardinality
+Entity and Relationship/Cardinality
+-----------------------------------
+***Patients and Appointments*** - One-to-Many - One patient can have many appointments
 
-Patients → Appointments - One-to-Many - One patient can have many appointments
+***Doctors and Appointments*** - One-to-Many - One doctor can have many appointments
 
-Doctors → Appointments - One-to-Many - One doctor can have many appointments
-
-Appointments → Diagnoses - One-to-One or One-to-Many - One appointment can have one or more diagnoses
+***Appointments and Diagnoses*** - One-to-One or One-to-Many - One appointment can have one or more diagnoses
 
 ERD Diagram:
 --------------
