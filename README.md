@@ -16,8 +16,6 @@ The datasets used are synthetic/mock data that is simulated to represent a typic
 
 # Database Schema
 
-| Entity          |       Description of Table                             |
-------------------|--------------------------------------------------------
 1. Patients - Stores personal info about patients                        
 2. Doctors - Stores doctor details and specialties
 3. Appointments - Manages scheduled consultations
