@@ -6,7 +6,7 @@ This is my Healthcare Relational Database System Project —  used to explore he
 # Dataset
 
 
-The datasets used are synthetic/mock data that is simulated to represent a typical hospital or clinic system.  These files are included as .csv files.
+The datasets used are synthetic/mock data that is simulated to represent a typical hospital or clinic system.  These files are included as .csv files in the /data folder.
 
 
 # Project Structure/Database Schema
