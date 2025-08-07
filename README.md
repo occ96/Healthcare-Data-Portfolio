@@ -40,7 +40,7 @@ This diagram visualizes the structure and relationships between tables in the he
 ![ER Diagram](./assets/HealthcareDBS_ERD.png)
 
 
-# Data Import
+# Data Import (use files in `data/`)
 Loads CSV files into MySQL using LOAD DATA INFILE
 
 patients.csv
