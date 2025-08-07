@@ -1,0 +1,5 @@
+PatientID,DoctorID,AppointmentDate,Reason
+1,1,2025-07-10 10:30:00,Chest pain
+2,2,2025-07-11 09:00:00,Headache
+3,3,2025-07-12 11:15:00,Skin rash
+4,4,2025-07-13 08:45:00,Routine checkup

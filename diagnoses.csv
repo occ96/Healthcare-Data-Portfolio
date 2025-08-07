@@ -1,0 +1,5 @@
+AppointmentID,DiagnosisText,PrescribedMedication,FollowUpDate
+1,Mild arrhythmia,Atenolol,8/1/2025
+2,Migraine,Ibuprofen,7/25/2025
+3,Eczema,Cetirizine cream,7/20/2025
+4,Healthy,None,1/1/2026

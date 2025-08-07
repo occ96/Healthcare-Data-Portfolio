@@ -1,0 +1,6 @@
+﻿patientid,firstname,lastname,gender,dob,phone,email
+1,John,Doe,M,4/23/1985,555-1234,john.doe@example.com
+2,Jane,Smith,F,8/14/1990,555-5678,jane.smith@example.com
+3,Bob,Johnson,M,12/2/1975,555-8765,bob.johnson@example.com
+4,Alice,Williams,F,3/30/2001,555-4321,alice.williams@example.com
+5,Maria,Gonzalez,F,6/18/1988,555-1111,maria.gonzalez@example.com
