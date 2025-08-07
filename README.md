@@ -1,4 +1,4 @@
-# Healthcare Database System
+# Healthcare Relational Database System
 
 This is my Healthcare Relational Database System Project —  used to explore healthcare datasets through data cleaning, analysis, visualization, and modeling. The goal is to extract actionable insights that can support decision-making in healthcare contexts.
 
@@ -24,11 +24,20 @@ Diagnoses: Records post-appointment medical observations and treatment
 
 # Relationships:
 
- Relationships Summary
-Entity	Relationship/Cardinality
+Entity and	Relationship/Cardinality
+
 Patients → Appointments - One-to-Many - One patient can have many appointments
+
 Doctors → Appointments - One-to-Many - One doctor can have many appointments
+
 Appointments → Diagnoses - One-to-One or One-to-Many - One appointment can have one or more diagnoses
+
+ERD Diagram:
+--------------
+
+This diagram visualizes the structure and relationships between tables in the healthcare database schema.
+
+![ER Diagram](./assets/HealthcareDBS_ERD.png)
 
 
 # Data Import
