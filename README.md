@@ -24,9 +24,9 @@ Diagnoses: Records post-appointment medical observations and treatment
 
 # Relationships:
 
-1. Appointments link patients to doctors
+Appointments link patients to doctors
 
-2. Diagnoses are tied to appointments
+Diagnoses are tied to appointments
 
 
 # Data Import
@@ -70,10 +70,14 @@ ORDER BY NumDoctors DESC;
 ```
 
 # Requirements
+
 MySQL Server (8.0 or later)
+
 MySQL Workbench or any SQL client
 
 Ensure the following for file loading:
+
 secure_file_priv is set correctly
+
 Your MySQL user has FILE privileges
 
