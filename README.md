@@ -3,13 +3,13 @@
 This is my Healthcare Relational Database System Project —  used to explore healthcare datasets through data cleaning, analysis, visualization, and modeling. The goal is to extract actionable insights that can support decision-making in healthcare contexts.
 
 
-# Dataset
+## Dataset
 
 
 The datasets used are synthetic/mock data that is simulated to represent a typical hospital or clinic system.  These files are included as .csv files in the data/ folder.
 
 
-# Project Structure/Database Schema
+## Project Structure/Database Schema
 
 Table Structure
 
@@ -22,7 +22,7 @@ Appointments: Manages scheduled consultations
 Diagnoses: Records post-appointment medical observations and treatment
 
 
-# Relationships:
+## Entity Relationships:
 
 Entity and Relationship/Cardinality
 -----------------------------------
@@ -32,7 +32,7 @@ Entity and Relationship/Cardinality
 
 ***Appointments and Diagnoses*** - One-to-One or One-to-Many - One appointment can have one or more diagnoses
 
-ER Diagram:
+## ER Diagram:
 --------------
 
 This diagram visualizes the structure and relationships between tables in the healthcare database schema.
@@ -40,19 +40,19 @@ This diagram visualizes the structure and relationships between tables in the he
 ![ER Diagram](./assets/HealthcareDBS_ERD.png)
 
 
-# Data Import (use files in `data/`)
+## Data Import (use files in `data/`)
 Loads CSV files into MySQL using LOAD DATA INFILE
 
-patients.csv
+**patients.csv**
 
-doctors.csv
+**doctors.csv**
 
-appointments.csv
+**appointments.csv**
 
-diagnoses.csv
+**diagnoses.csv**
 
 
-# Queries Included
+## Queries Included
 Patient filtering: Find patients born after a specific date
 
 Appointment joins: Display upcoming appointments with doctor and patient info
@@ -80,7 +80,7 @@ GROUP BY Specialty
 ORDER BY NumDoctors DESC;
 ```
 
-# Requirements
+## Requirements
 
 MySQL Server (8.0 or later)
 
