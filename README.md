@@ -48,6 +48,26 @@ Appointment joins: Display upcoming appointments with doctor and patient info
 
 Doctor stats: Count of doctors by specialty
 
+# Example SQL Query
+'''sql
+-- Filter patients born after 1990
+SELECT * FROM Patients WHERE DOB > "1990-07-01";
+
+-- Upcoming appointments with patient and doctor details
+SELECT a.AppointmentID, a.AppointmentDate, 
+       p.FirstName AS PatientFirstName, d.FirstName AS DoctorFirstName
+FROM Appointments a
+JOIN Patients p ON a.PatientID = p.PatientID
+JOIN Doctors d ON a.DoctorID = d.DoctorID
+WHERE a.AppointmentDate >= NOW()
+ORDER BY a.AppointmentDate;
+
+-- Number of doctors by specialty
+SELECT Specialty, COUNT(*) AS NumDoctors
+FROM Doctors
+GROUP BY Specialty
+ORDER BY NumDoctors DESC;
+
 
 # Requirements
 MySQL Server (8.0 or later)
@@ -56,3 +76,4 @@ MySQL Workbench or any SQL client
 Ensure the following for file loading:
 secure_file_priv is set correctly
 Your MySQL user has FILE privileges
+
