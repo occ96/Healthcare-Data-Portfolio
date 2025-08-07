@@ -67,7 +67,7 @@ SELECT Specialty, COUNT(*) AS NumDoctors
 FROM Doctors
 GROUP BY Specialty
 ORDER BY NumDoctors DESC;
-
+```
 
 # Requirements
 MySQL Server (8.0 or later)
