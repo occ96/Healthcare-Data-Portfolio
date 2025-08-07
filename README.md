@@ -32,7 +32,7 @@ Entity and Relationship/Cardinality
 
 ***Appointments and Diagnoses*** - One-to-One or One-to-Many - One appointment can have one or more diagnoses
 
-ERD Diagram:
+ER Diagram:
 --------------
 
 This diagram visualizes the structure and relationships between tables in the healthcare database schema.
