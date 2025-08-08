@@ -83,6 +83,18 @@ GROUP BY Specialty
 ORDER BY NumDoctors DESC;
 ```
 
+## Key Functions in Script
+
+| Function Type         | Examples                                     |
+| --------------------- | -------------------------------------------- |
+| **Schema Creation**   | `CREATE TABLE`, `PRIMARY KEY`, `FOREIGN KEY` |
+| **Data Import**       | `LOAD DATA INFILE`                           |
+| **Data Cleanup**      | `DROP TABLE IF EXISTS`                       |
+| **Exploration**       | `DESCRIBE`, `SELECT ... WHERE ...`           |
+| **Joins**             | `JOIN ... ON`                                |
+| **Aggregation**       | `COUNT()`, `GROUP BY`, `ORDER BY`            |
+| **Filtering by Date** | `WHERE DOB > '1990-07-01'`                   |
+
 ## Requirements
 
 MySQL Server (8.0 or later)
